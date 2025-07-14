@@ -7,5 +7,5 @@ import { DataForm } from './components/data-form/data-form';
 export const routes: Routes = [
     {path: 'templateForm', title: 'Template', component: TemplateForm},
     {path: 'dataForm', title: 'Data', component: DataForm},
-    {path: '', pathMatch: 'full', redirectTo: 'TemplateForm'}
+    {path: '', pathMatch: 'full', redirectTo: '/dataForm'}
 ];
